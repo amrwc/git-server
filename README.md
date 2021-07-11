@@ -34,6 +34,8 @@ git clone git@<url_or_ip>:<path_to_repositories>/<repository_name>.git
 
 ### Local SSH config
 
+Add the following configuration to `~/.ssh/config`:
+
 ```text
 Host <remote_alias>
   HostName <url_or_ip>
